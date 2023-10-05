@@ -7,7 +7,7 @@ import java.util.List;
 public interface UserService {
     void add(User user);
 
-    void getUserByCarsModelAndCarsSeries(String model, int series);
+    User getUserByCarsModelAndCarsSeries(String model, int series);
 
     List<User> listUsers();
 }
